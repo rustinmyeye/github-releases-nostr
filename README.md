@@ -8,7 +8,7 @@ This Dockerized Nostr bot is designed to post the most recent release of a GitHu
 
 ```cd github-releases-nostr```
 
-2. Change the NOSCL_PRIVATE_KEY in the dockerfile. It needs to be the hex key because nsec1 didnt seem to work for me.
+2. Change the NOSCL_PRIVATE_KEY in the dockerfile. (It needs to be the hex key because nsec1 didnt seem to work for me)
 
 3. Add your github releases page you'd like to follow to the git2nostr.py file. 
 
