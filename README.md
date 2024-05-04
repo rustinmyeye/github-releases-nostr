@@ -2,7 +2,7 @@
 This Dockerized Nostr bot is designed to post the most recent release of a GitHub repository to Nostr and subsequently check for any new releases every hour.
 
 ## Setup
-1. Clone the Repositoryand enter the directory:
+1. Clone the repository and enter the directory:
 
 ```git clone https://github.com/rustinmyeye/github-releases-nostr```
 
