@@ -4,9 +4,13 @@ This Dockerized Nostr bot is designed to post the most recent release of a GitHu
 ## Setup
 1. Clone the repository and enter the directory:
 
-```git clone https://github.com/rustinmyeye/github-releases-nostr```
+```
+git clone https://github.com/rustinmyeye/github-releases-nostr
+```
 
-```cd github-releases-nostr```
+```
+cd github-releases-nostr
+```
 
 2. Change the NOSCL_PRIVATE_KEY in the dockerfile. (It needs to be the hex key because nsec1 didnt seem to work for me)
 
@@ -17,8 +21,12 @@ This Dockerized Nostr bot is designed to post the most recent release of a GitHu
 5. Ensure Docker is installed on your system then, build the container with:
    
 
-``` docker build -t nostr-bot . ``` 
+```
+docker build -t nostr-bot .
+``` 
 
 6. Then to start the container:
 
-``` docker run -d --name nostr-bot nostr-bot ```
+```
+docker run -d --name nostr-bot nostr-bot
+```
