@@ -16,7 +16,7 @@ RUN mv /root/go/bin/noscl /app/noscl && chmod +x noscl
 # Copy the necessary files into the container
 COPY git2nostr.py .
 COPY entrypoint.sh .
-COPY last_release.json .
+#COPY last_release.json .
 
 # Install required Python packages
 RUN pip install requests
